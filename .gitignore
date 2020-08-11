@@ -8,7 +8,6 @@ frontend/static
 /.pnp
 .pnp.js
 
-/env/
 # testing
 /coverage
 
@@ -118,8 +117,8 @@ celerybeat-schedule
 .env
 
 # virtualenv
-.venv
-venv/
+.env
+env/
 ENV/
 .vscode
 # Spyder project settings
