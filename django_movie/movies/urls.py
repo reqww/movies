@@ -57,7 +57,7 @@ actor_example = api.ActorModelViewSet.as_view({
 # )
 
 urlpatterns += format_suffix_patterns([
-    path('movie/', movie_list, name='movie-list'),
+    path('movie/', movie_list, name='movie-list'), 
     path('movie/<int:pk>', movie_detail, name='movie-detail'),
 
     path('actor/', actor_list, name='actor-list'),
